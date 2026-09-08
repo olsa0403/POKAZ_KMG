@@ -283,7 +283,7 @@ svg .ось[data-к]{transform:none}
 .карточка.календ b{font-size:15px}
 
 /* ===== 0. семь шагов ===== */
-.семь{margin-top:auto;display:grid;grid-template-columns:repeat(7,1fr);gap:22px}
+.семь{margin-top:auto;display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
 .шаг7{border-top:2px solid rgba(2,174,240,.42);padding-top:16px}
 .шаг7 .н{font-family:'Unbounded',sans-serif;font-size:14px;color:var(--кмг);font-weight:700}
 .шаг7 h3{margin-top:12px;font-size:20px;font-weight:700;line-height:1.25;min-height:76px}
@@ -308,22 +308,20 @@ svg .ось[data-к]{transform:none}
 .шаг7 .сис b{display:block;font-size:15px;color:var(--текст);font-weight:700}
 .шаг7 .сис b.платформа{color:var(--кмг)}
 .шаг7 .сис span{display:block;margin-top:4px}
-/* семь шагов открываются одним нажатием — каскадом слева направо */
 .семь .шаг7:nth-child(3){transition-delay:0s}
 .семь .шаг7:nth-child(4){transition-delay:.11s}
 .семь .шаг7:nth-child(5){transition-delay:.22s}
 .семь .шаг7:nth-child(6){transition-delay:.33s}
 .семь .шаг7:nth-child(7){transition-delay:.44s}
 .семь .шаг7:nth-child(8){transition-delay:.55s}
-.семь .шаг7:nth-child(9){transition-delay:.66s}
-.лента7{transition-delay:.8s}
+.лента7{transition-delay:.7s}
 /* полосы над колонками: четыре реализованных шага и три в работе */
 .семь .полоса{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--приглуш);padding-bottom:10px;
   border-bottom:2px solid rgba(124,141,166,.35);margin-bottom:6px}
 .семь .полоса b{font-weight:700}
-.семь .полоса.готово{grid-column:1/5;border-bottom-color:var(--мята)}
+.семь .полоса.готово{grid-column:1/4;border-bottom-color:var(--мята)}
 .семь .полоса.готово b{color:var(--мята)}
-.семь .полоса.работа{grid-column:5/8;border-bottom-color:rgba(79,227,255,.7)}
+.семь .полоса.работа{grid-column:4/7;border-bottom-color:rgba(79,227,255,.7)}
 .семь .полоса.работа b{color:var(--циан)}
 /* реализованные шаги — ярче, с мятной кромкой и лёгкой подложкой; в работе — приглушены */
 .шаг7.готово{border-top-color:var(--мята);background:linear-gradient(180deg,rgba(62,230,184,.08),transparent 70%);
@@ -505,7 +503,7 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
       <h3>Формирование потребности</h3>
 
       <div class="сис">
-        <b class="платформа">KMG AI PROCUREMENT</b>
+        <b class="платформа">WMS</b>
         <span>Модуль «Формирование потребностей»</span>
       </div>
 
@@ -587,7 +585,7 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
       <h3>Исполнение договорных обязательств</h3>
 
       <div class="сис">
-        <b class="платформа">KMG AI PROCUREMENT</b>
+        <b class="платформа">WMS</b>
         <span>Модуль «Исполнение договоров»</span>
       </div>
 
