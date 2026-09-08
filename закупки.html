@@ -911,6 +911,98 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
 .агент_финал.включён{
   box-shadow:0 0 22px rgba(62,230,184,.12);
 }
+   /* =========================================================
+   РАЗДЕЛИТЕЛИ · KMG AI PROCUREMENT
+   ========================================================= */
+
+.разделитель{
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  justify-content:center;
+  background:
+    radial-gradient(800px 500px at 82% 50%, rgba(2,174,240,.13), transparent 70%),
+    linear-gradient(135deg,#060B16 0%,#081525 55%,#050810 100%);
+}
+
+.разделитель::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(rgba(27,46,72,.24) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(27,46,72,.24) 1px,transparent 1px);
+  background-size:96px 96px;
+  opacity:.45;
+  pointer-events:none;
+}
+
+.разделитель_контент{
+  position:relative;
+  z-index:2;
+  margin-left:40px;
+  max-width:1250px;
+}
+
+.разделитель_номер{
+  font-family:'Unbounded',sans-serif;
+  font-size:16px;
+  font-weight:700;
+  letter-spacing:.18em;
+  color:var(--кмг);
+  margin-bottom:30px;
+}
+
+.разделитель_заголовок{
+  font-family:'Unbounded',sans-serif;
+  font-size:82px;
+  line-height:1.08;
+  font-weight:700;
+  letter-spacing:-.03em;
+  color:var(--текст);
+}
+
+.разделитель_описание{
+  margin-top:30px;
+  max-width:900px;
+  font-size:22px;
+  line-height:1.5;
+  color:var(--текст2);
+}
+
+.разделитель_линия{
+  width:130px;
+  height:3px;
+  margin-top:38px;
+  border-radius:3px;
+  background:var(--кмг);
+  box-shadow:0 0 20px rgba(2,174,240,.55);
+}
+
+.разделитель_фонномер{
+  position:absolute;
+  right:90px;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:1;
+  font-family:'Unbounded',sans-serif;
+  font-size:360px;
+  line-height:1;
+  font-weight:700;
+  color:rgba(2,174,240,.045);
+  pointer-events:none;
+}
+
+.разделитель_подпись{
+  position:absolute;
+  left:138px;
+  bottom:120px;
+  z-index:2;
+  font-family:'Unbounded',sans-serif;
+  font-size:12px;
+  letter-spacing:.16em;
+  color:var(--приглуш);
+}
   </style>
 </head>
 <body>
@@ -929,7 +1021,36 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
 <div class="титул_расш en">Закупки без участия человека · ИИ-агенты · AI Broker</div>
   </div>
 </section>
+<!-- ================= РАЗДЕЛ 01 ================= -->
+<section class="слайд разделитель" id="раздел_01" aria-label="Закупки без участия человека">
 
+  <div class="разделитель_контент">
+
+    <div class="разделитель_номер">
+      01 / 03 · НАПРАВЛЕНИЕ
+    </div>
+
+    <div class="разделитель_заголовок">
+      Закупки без<br>
+      участия человека
+    </div>
+
+    <div class="разделитель_описание">
+      Сквозная автоматизация закупочного процесса —
+      от формирования потребности до исполнения обязательств
+    </div>
+
+    <div class="разделитель_линия"></div>
+
+  </div>
+
+  <div class="разделитель_фонномер">01</div>
+
+  <div class="разделитель_подпись">
+    KMG AI PROCUREMENT · AUTONOMOUS PROCUREMENT
+  </div>
+
+</section>
 <!-- ================= 0. Сквозной процесс проведения закупок ================= -->
 <section class="слайд" id="с0" aria-label="Сквозной процесс проведения закупок">
   <div class="система_имя дисплей">KMG AI PROCUREMENT <span>AI-Driven Supply &amp; Procurement</span></div>
@@ -1500,6 +1621,37 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
   </div>
 
 </section>
+   <!-- ================= РАЗДЕЛ 02 ================= -->
+<section class="слайд разделитель" id="раздел_02" aria-label="ИИ-агенты">
+
+  <div class="разделитель_контент">
+
+    <div class="разделитель_номер">
+      02 / 03 · НАПРАВЛЕНИЕ
+    </div>
+
+    <div class="разделитель_заголовок">
+      ИИ-агенты
+    </div>
+
+    <div class="разделитель_описание">
+      Интеллектуальная поддержка закупочного процесса —
+      от проверки документации до сопровождения закупочной процедуры
+      и обработки обращений поставщиков
+    </div>
+
+    <div class="разделитель_линия"></div>
+
+  </div>
+
+  <div class="разделитель_фонномер">02</div>
+
+  <div class="разделитель_подпись">
+    PROCU.KMG.KZ · AI AGENTS
+  </div>
+
+</section>
+
 <!-- =========================================================
      ИИ-АГЕНТЫ · PROCU.KMG.KZ
      ========================================================= -->
@@ -2104,6 +2256,36 @@ svg .луч[data-к],svg .возврат[data-к]{transform:none}
   </div>
 
 </section>
+   <!-- ================= РАЗДЕЛ 03 ================= -->
+<section class="слайд разделитель" id="раздел_03" aria-label="AI Broker">
+
+  <div class="разделитель_контент">
+
+    <div class="разделитель_номер">
+      03 / 03 · НАПРАВЛЕНИЕ
+    </div>
+
+    <div class="разделитель_заголовок">
+      AI Broker
+    </div>
+
+    <div class="разделитель_описание">
+      Поиск внутренних запасов и закрытие потребности
+      за счёт остатков других ДЗО группы КМГ
+    </div>
+
+    <div class="разделитель_линия"></div>
+
+  </div>
+
+  <div class="разделитель_фонномер">03</div>
+
+  <div class="разделитель_подпись">
+    ГРУППА КМГ · AI BROKER
+  </div>
+
+</section>
+
    <!-- ================= 4. AI-Broker =================
      Слайд 2 из документа: семь кадров. Склады ДЗО показаны картой, а не
      четырьмя одинаковыми блоками: карта уже была согласована как сцена и
